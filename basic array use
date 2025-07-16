@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main() {
+    /*taking the size of array from user*/
+    int len;
+    printf("enter the size of arr: ");
+    scanf("%d",&len);
+    
+    int arr[len];
+    printf("enter value-\n");
+    
+    /*for loop to run the same number of times as the size of array*/
+    for (int i=0;i<len;i++)
+    {
+        printf("element %d: ",i+1);
+        scanf("%d",&arr[i]);
+    }
+    printf("the arr u made: ");
+    for (int i=0;i<len;i++)
+    {
+        printf("%d\t",arr[i]);
+    }
+    return 0;
+}
