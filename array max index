@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main() 
+{
+    /*making a arr with 10 variabes*/
+    int arr[10];
+    for (int i=0;i<10;i++)
+    {
+        printf("enter element %d: ",i+1);
+        scanf("%d",&arr[i]);
+    }
+    printf("the array u made -");
+    for (int i=0;i<10;i++) {
+        printf("\t%d\t",arr[i]);
+    }
+    /*comparing all the elemnts of the array then printing the highest*/
+    int largest=arr[0];/*taking the first elemnt as base to compare*/
+    for (int i=0;i<10;i++)
+    {
+        if (largest < arr[i])
+        {
+            largest = arr[i];
+        }
+    }
+    printf("\nlargest number is %d\n", largest);
+}
