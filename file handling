@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main() {
+    /*making a file with pointer fptr*/
+    FILE *fptr;
+    fptr = fopen("demo.txt","w");
+    fprintf(fptr,"adding a new line\n");
+    fclose(fptr);
+    
+    fptr = fopen("demo.txt","r");
+    if (fptr == NULL) {
+        printf("error");/*checking if the file is empty or not */
+        return 1;
+    }
+    char mystring[100];/*storing the file content in array*/
+    fgets(mystring,100,fptr);
+    printf("%s",mystring);
+    fclose(fptr);
+    
+    return 0;
+}
