@@ -7,6 +7,8 @@ This repository contains my practice C programs as I learn the basics of C. Thes
 - `array_basic.c` – Basic use of arrays (declaring, accessing, modifying)
 - `switch_operations.c` – Performing basic operations (like add, subtract, etc.) using `switch` case
 - `array_max_finder.c` – Takes 10 elements from the user, prints the array, and finds the largest number
+- `file_read_write.c` – Demonstrates basic file writing and reading using fprintf and fgets
+
 
 More programs will be added as I continue learning. 
 
