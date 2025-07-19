@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main() {
+    int x,y;
+    printf("enter the number of rows and coloumn: ");
+    scanf("%d%d",&x,&y);
+    int i,j,matrix[x][y];
+    for (i=0;i<x;i++) {
+        for (j=0;j<y;j++) {
+            printf("enter element [%d][%d]: ",i,j);
+            scanf("%d",&matrix[i][j]);
+        }
+    }
+    printf("the matrix u made: \n");
+    for (i=0;i<x;i++) {
+        for (j=0;j<y;j++) {
+            printf(" %d\t ",matrix[i][j]);
+        }
+        printf("\n");
+    }
+    return 0;
+    
+}
