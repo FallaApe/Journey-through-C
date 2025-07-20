@@ -9,6 +9,7 @@ This repository contains my practice C programs as I learn the basics of C. Thes
 - `array_max_finder.c` – Takes 10 elements from the user, prints the array, and finds the largest number
 - `file_read_write.c` – Demonstrates basic file writing and reading using fprintf and fgets
 - `matrix_input_display.c` – Takes input for a 2D matrix from the user and displays it in matrix form
+- `temperature_converter.c` – Converts temperatures between Fahrenheit and Celsius using a menu-driven loop
 
 
 
