@@ -13,6 +13,7 @@ This repository contains my practice C programs as I learn the basics of C. Thes
 - `triangle_check.c` – Checks if three given side lengths can form a valid triangle using the triangle inequality rule
 - `string_array_print.c` – Prints an array of predefined strings using a loop with tab-separated output
 - `structure.c` – Demonstrates usage of a structure with int, char, float, and string fields to store and display student-like data
+- `even_odd_check.c` – Takes an integer input and checks whether it is even or odd using the modulo operator.
 
 
 
