@@ -15,7 +15,7 @@ This repository contains my practice C programs as I learn the basics of C. Thes
 - `structure.c` – Demonstrates usage of a structure with int, char, float, and string fields to store and display student-like data
 - `even_odd_check.c` – Takes an integer input and checks whether it is even or odd using the modulo operator
 - `student percentage.c` – Takes marks of 4 subjects, calculates the average percentage, and prints the corresponding grade (A, B, C, or Fail)
-- factorial.c – Calculates factorial of a number entered by the user using a for loop
+- `factorial.c` – Calculates factorial of a number entered by the user using a for loop
 
 
 
